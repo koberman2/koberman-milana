@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="description" content="">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title></title>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script defer src="js/temp-index.min.js"></script><link href="css/style.css" rel="stylesheet"></head>
+  <body class="d-flex flex-column off-canvas-backdrop">
+<header class="position-fixed top-0 start-0 end-0">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-auto bg-primary px-0">
+        <div class="mil-menu-width d-flex justify-content-center align-items-center"><a class="mil-offcanvas-btn d-none d-md-block d-xl-none" data-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="i i-menu"></i></a><a class="mil-header-logo" href="index.html"></a></div>
+      </div>
+      <div class="col mil-top-side-menu">
+        <div class="d-flex align-items-center h-100">
+          <div class="col-auto d-none d-lg-block">
+            <form class="me-xxl-6 me-xxxl-14">
+              <input class="form-control form-control-sm mil-search-input border-0 border-bottom border-black" type="text" placeholder="Искать товары">
+            </form>
+          </div>
+          <div class="col-auto d-none d-xxl-block pe-xxxl-7">
+            <div class="dropdown dropdown-city"><a class="dropdown-toggle justify-content-center" href="#" role="button" id="dropdownCity" data-bs-toggle="dropdown" aria-expanded="false">Калининград</a>
+              <div class="dropdown-menu"></div>
+            </div>
+          </div>
+          <div class="col-auto d-none d-xxl-block">
+            <div class="d-flex"><a class="me-3" href="tel:+78005553860">+7 800 555 38 60</a><a class="me-3" href="#"><i class="i i-telegram i-s-20"></i></a><a class="me-3" href="#"><i class="i i-whatsapp i-s-20"></i></a></div>
+          </div>
+          <div class="col-auto ms-auto">
+            <div class="d-flex"><a href="profile.html"><i class="i i-profile"></i><span>User</span></a><a href="favorites.html"><i class="i i-favorite"></i><span>99+</span></a><a class="me-md-0" href="basket.html"><i class="i i-basket"></i><span>1</span>
+                <div class="d-none d-md-inline-block border-black border-start border-2 mx-2 pt-3"></div><span class="d-none d-md-inline">5 990 ₽</span></a></div>
+          </div>
+          <div class="col-auto d-md-none"><a class="mil-offcanvas-btn" data-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="i i-menu"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="off-canvas off-canvas-start show overflow-hidden bg-light" id="offcanvasScrolling" data-scroll="true" data-backdrop="true" tabindex="-1">
+      <div class="off-canvas-body mil-scroll-bar" data-scroll-index="offCanvasBody">
+        <nav class="nav flex-column mb-xxl-0 mb-xl-20 mb-md-28 mb-10">
+          <li class="nav-item nav-sub-item active"><a class="nav-link" href="#">Женщинам</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Все товары</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Новинки</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Распродажа</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Обувь</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item active"><a class="nav-link nav-badge" href="catalog.html" data-badge="606">Босоножки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="278">Ботильоны</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="593">Ботинки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="55">Мокасины</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="709">Полуботинки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="78">Полусапоги</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="60">Сабо</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="131">Сандалии</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Сумки</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Аксессуары</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Уход за обувью</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Мужчинам</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Сумки</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Аксессуары</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Уход за обувью</a></li>
+          <li class="nav-item"><a class="nav-link" href="promotions.html">аКЦИИ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ОБРАЗЫ</a></li>
+          <li class="nav-item"><a class="nav-link" href="shops.html">Магазины</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="#">покупателям</a></li>
+        </nav>
+        <div class="d-md-none mb-7 py-5 bg-light off-canvas-search px-4">
+          <form>
+            <input class="form-control form-control-sm mil-search-input border-bottom border-black" type="text" placeholder="Искать товары">
+          </form>
+        </div>
+        <div class="d-xxl-none off-canvas-contacts text-center">
+          <div class="dropdown dropdown-city mb-2"><a class="dropdown-toggle justify-content-center" href="#" role="button" id="dropdownCity" data-bs-toggle="dropdown" aria-expanded="false">Калининград</a>
+            <div class="dropdown-menu"></div>
+          </div>
+          <div class="d-flex align-items-center justify-content-center"><a class="off-canvas-phone me-3" href="tel:+78005553860">+7 800 555 38 60</a><a class="me-3" href="#"><i class="i i-telegram i-s-20"></i></a><a href="#"><i class="i i-whatsapp i-s-20"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <main class="mil-margin-left-side-menu mil-margin-top-header">
+      <section class="pe-md-7 pe-lg-8 pt-7 pt-md-13 pt-xxl-16 ps-xxxl-18 ps-xxl-14 ps-xl-12 ps-lg-9 ps-md-8 px-4">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Главная 2</a></li>
+            <li class="breadcrumb-item"><a href="#">Каталог</a></li>
+            <li class="breadcrumb-item"><a href="#">Женщинам</a></li>
+            <li class="breadcrumb-item active">Женские ботфорты</li>
+          </ol>
+        </nav>
+        <div class="d-flex mb-10 align-items-start flex-column flex-md-row catalog-title-container">
+          <h1 class="h3 text-uppercase mb-md-0 catalog-title mb-6">Женские ботфорты<sup>95</sup></h1>
+          <button class="navbar-toggler btn btn-primary btn-sm ms-md-auto d-xl-none btn-icon f-15px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCatalogFilter" aria-controls="navbarNavDarkDropdown" aria-expanded="false"><i class="i i-filters"></i>Уточнить</button>
+          <div class="not-hide-nav-item nav-item dropdown ms-auto d-xxl-none d-xl-block d-none"><a class="nav-link dropdown-toggle f-13px pe-0" id="navbarOrderTablet" href="#" role="button" aria-haspopup="true" aria-expanded="false">Сортировать</a>
+            <div class="dropdown-menu dropdown-menu-end ps-11 py-9 pe-11 f-13px"><a class="d-block text-nowrap text-decoration-none text-black mb-2" href="#">Сначала дешевые</a><a class="d-block text-nowrap text-decoration-none text-black mb-2" href="#">Сначала дорогие</a><a class="d-block text-nowrap text-decoration-none text-black mb-2" href="#">Сначала со скидкой</a><a class="d-block text-nowrap text-decoration-none text-black mb-2" href="#">Сначала новинки</a><a class="d-block text-nowrap text-decoration-none text-black mb-2" href="#">Сначала популярные</a><a class="d-block text-nowrap text-decoration-none text-black" href="#">По убыванию артикула</a></div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-xl mb-md-8">
+          <div class="collapse navbar-collapse mil-filters" id="navbarCatalogFilter">
+            <div class="not-hide-nav-item nav-item d-xl-none order-0 ps-md-14 py-md-6 pe-md-10 px-4 pt-6 pb-5">
+              <div class="d-flex justify-content-between"><span class="toggle-title-nav-link f-20px f-bold text-uppercase d-none mt-9"></span><span class="title-nav-link f-20px f-bold text-uppercase mt-9">уточнить</span><span class="navbar-toggler p-0" data-bs-toggle="collapse" data-bs-target="#navbarCatalogFilter" aria-controls="navbarNavDarkDropdown" aria-expanded="false"><i class="i i-close i-sm"></i></span></div>
+            </div>
+            <div class="filters-container-scroll p-xl-0 me-xl-0 ps-md-10 pb-md-6 pe-md-7 me-md-11 me-5 pb-15">
+              <ul class="navbar-nav f-13px mb-xl-0 mb-15">
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarSize" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Размер</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3">
+                    <div class="dropdown-title mb-xl-6 mb-5 dropdown-column-2"><span>Размер</span><span class="text-xl-center">Длина стопы (см)</span></div>
+                    <div class="dropdown-scrollbar" data-scroll-index="colorsScroll">
+                      <div class="dropdown-column-2">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size1">
+                          <label class="form-check-label" for="size1"><span>35</span><span class="text-xl-center">23</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size2">
+                          <label class="form-check-label" for="size2"><span>36</span><span class="text-xl-center">23.5</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size3">
+                          <label class="form-check-label" for="size3"><span>37</span><span class="text-xl-center">24</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size4">
+                          <label class="form-check-label" for="size4"><span>38</span><span class="text-xl-center">25</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size5">
+                          <label class="form-check-label" for="size5"><span>39</span><span class="text-xl-center">26</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size6">
+                          <label class="form-check-label" for="size6"><span>40</span><span class="text-xl-center">26.5</span></label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="size7">
+                          <label class="form-check-label" for="size7"><span>41</span><span class="text-xl-center">27</span></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarColor" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Цвет</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3">
+                    <div class="dropdown-input mb-6">
+                      <input class="color-input" placeholder="Введите текст">
+                    </div>
+                    <div class="dropdown-scrollbar" data-scroll-index="colorsScroll">
+                      <div class="column-block">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color1">
+                          <label class="form-check-label" for="color1">Бежевый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color2">
+                          <label class="form-check-label" for="color2">Белый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color3">
+                          <label class="form-check-label" for="color3">Бордовый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color4">
+                          <label class="form-check-label" for="color4">Коричневый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color5">
+                          <label class="form-check-label" for="color5">Рыжий</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color6">
+                          <label class="form-check-label" for="color6">Хаки</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color7">
+                          <label class="form-check-label" for="color7">Серый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color8">
+                          <label class="form-check-label" for="color8">Черный</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color9">
+                          <label class="form-check-label" for="color9">Фиолтеовый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color10">
+                          <label class="form-check-label" for="color10">Красный</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color1">
+                          <label class="form-check-label" for="color1">Бежевый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color2">
+                          <label class="form-check-label" for="color2">Белый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color3">
+                          <label class="form-check-label" for="color3">Бордовый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color4">
+                          <label class="form-check-label" for="color4">Коричневый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color5">
+                          <label class="form-check-label" for="color5">Рыжий</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color6">
+                          <label class="form-check-label" for="color6">Хаки</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color7">
+                          <label class="form-check-label" for="color7">Серый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color8">
+                          <label class="form-check-label" for="color8">Черный</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color9">
+                          <label class="form-check-label" for="color9">Фиолтеовый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="color10">
+                          <label class="form-check-label" for="color10">Красный</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarSeason" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Сезон</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3">
+                    <div class="dropdown-scrollbar" data-scroll-index="seasonsScroll">
+                      <div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="demi">
+                          <label class="form-check-label" for="demi">Деми</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="winter" checked>
+                          <label class="form-check-label" for="winter">Зима</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarMterial" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Метериал</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3">
+                    <div class="dropdown-scrollbar" data-scroll-index="colorsScroll">
+                      <div class="dropdown-col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material1">
+                          <label class="form-check-label" for="material1">Натур. кожа</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material2">
+                          <label class="form-check-label" for="material2">Натур. кожа (велюр)</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material3">
+                          <label class="form-check-label" for="material3">Натур. кожа (велюр; стрейч)</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material4">
+                          <label class="form-check-label" for="material4">Коричневый</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material5">
+                          <label class="form-check-label" for="material5">Натур. кожа (нубук)</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material6">
+                          <label class="form-check-label" for="material6">Натур. кожа (велюр); текстиль</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material7">
+                          <label class="form-check-label" for="material7">Натур. кожа (велюр); стрейч</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material8">
+                          <label class="form-check-label" for="material8">Натур. кожа (стрейч)</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="material9">
+                          <label class="form-check-label" for="material9">Натур. кожа (спилок)</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarPrice" href="#" role="button" data-bs-offset="100,20" data-bs-display="static" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Цена</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3">
+                    <div class="perfect-scrollbar overflow-hidden position-relative">
+                      <div class="dropdown-col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" value="" id="price1" name="price">
+                          <label class="form-check-label" for="price1">от 3 000 до 5 000 ₽</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="price2" name="price" checked>
+                          <label class="form-check-label" for="price2">от 5 000 ₽</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarShop" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Магазин</a>
+                  <div class="dropdown-menu dropdown-menu-xxl-start dropdown-menu-shop px-xl-11 py-xl-9">
+                    <div class="row row-cols-1 row-cols-xl-2 flex-xl-nowrap">
+                      <div class="col">
+                        <div class="dropdown-col">
+                          <div class="dropdown-title mb-xl-6 mb-5">Город</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city1" name="city">
+                              <label class="form-check-label" for="city1">Москва</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city2" name="city">
+                              <label class="form-check-label" for="city2">Санкт-Петербург</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city3" name="city">
+                              <label class="form-check-label" for="city3">Волгоград</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city4" name="city">
+                              <label class="form-check-label" for="city4">Калининград</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city5" name="city">
+                              <label class="form-check-label" for="city5">Владивосток</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city6" name="city">
+                              <label class="form-check-label" for="city6">Нижний Новгород</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city7" name="city">
+                              <label class="form-check-label" for="city7">Москва</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city8" name="city">
+                              <label class="form-check-label" for="city8">Санкт-Петербург</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city9" name="city">
+                              <label class="form-check-label" for="city9">Волгоград</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city10" name="city">
+                              <label class="form-check-label" for="city10">Калининград</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city11" name="city">
+                              <label class="form-check-label" for="city11">Владивосток</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="city12" name="city">
+                              <label class="form-check-label" for="city12">Нижний Новгород</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="dropdown-col">
+                          <div class="dropdown-title mb-xl-8 mb-5 mt-xl-0 mt-7">Магазин</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="shopsScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop1">
+                              <label class="form-check-label" for="shop1">ТЦ Выходной</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop2">
+                              <label class="form-check-label" for="shop2">ТЦ Ригамолл</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop3">
+                              <label class="form-check-label" for="shop3">ТЦ Family outlet</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop4">
+                              <label class="form-check-label" for="shop4">ТЦ Калейдоскоп</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop5">
+                              <label class="form-check-label" for="shop5">ТЦ Калита</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="shop6">
+                              <label class="form-check-label" for="shop6">ТЦ Фэшн хауз аутлет</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown me-xl-4 order-2"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarOtherFilters" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Другие фильтры</a>
+                  <div class="dropdown-menu ps-xl-11 py-xl-9 pe-xl-3 dropdown-menu-other-filters">
+                    <div class="row flex-xl-nowrap row-cols-1">
+                      <div class="col-xl-auto col">
+                        <div class="dropdown-col w-auto">
+                          <div class="dropdown-title mb-xl-6 mb-5">Материал подкладки</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial1">
+                              <label class="form-check-label" for="liningMaterial1">без подкладки</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial2">
+                              <label class="form-check-label" for="liningMaterial2">ворсин</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial3">
+                              <label class="form-check-label" for="liningMaterial3">натуральная кожа</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial4">
+                              <label class="form-check-label" for="liningMaterial4">натуральная кожа (текстиль)</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial5">
+                              <label class="form-check-label" for="liningMaterial5">натуральная кожа (стрейч)</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="liningMaterial6">
+                              <label class="form-check-label" for="liningMaterial6">натуральная шерсть</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-auto col">
+                        <div class="dropdown-col w-auto">
+                          <div class="dropdown-title mb-xl-6 mb-5 mt-xl-0 mt-7">Вид застежки</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType1">
+                              <label class="form-check-label" for="claspType1">без застежки</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType2">
+                              <label class="form-check-label" for="claspType2">липучка</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType3">
+                              <label class="form-check-label" for="claspType3">молния</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType4">
+                              <label class="form-check-label" for="claspType4">шнуровка</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType5">
+                              <label class="form-check-label" for="claspType5">шнуровка; липучка</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="claspType6">
+                              <label class="form-check-label" for="claspType6">молния; шнуровка</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-auto col">
+                        <div class="dropdown-col w-auto">
+                          <div class="dropdown-title mb-xl-6 mb-5 mt-xl-0 mt-7">Тип подошвы</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="soleType1">
+                              <label class="form-check-label" for="soleType1">без каблука</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="soleType2">
+                              <label class="form-check-label" for="soleType2">платформа</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="soleType3">
+                              <label class="form-check-label" for="soleType3">с каблуком</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="soleType4">
+                              <label class="form-check-label" for="soleType4">танкетка</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-auto col">
+                        <div class="dropdown-col w-auto">
+                          <div class="dropdown-title mb-xl-6 mb-5 mt-xl-0 mt-7">Высота каблука (см)</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="slider-range px-xl-0 px-4 me-xl-8 me-0">
+                              <div class="row row-cols-xl-2 mb-4">
+                                <div class="form-group col-xl col-md-3">
+                                  <input class="form-control form-control-sm input-from bg-light">
+                                </div>
+                                <div class="form-group col-xl col-md-3">
+                                  <input class="form-control form-control-sm input-to bg-light">
+                                </div>
+                              </div>
+                              <input class="range" type="text" data-min="0" data-max="20" data-from="2" data-to="7">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-auto col">
+                        <div class="dropdown-col w-auto">
+                          <div class="dropdown-title mb-xl-6 mb-5 mt-xl-0 mt-7">Дополнительно</div>
+                          <div class="dropdown-scrollbar" data-scroll-index="citiesScroll">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" value="" id="sale1" name="sale">
+                              <label class="form-check-label" for="sale1">sale</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="new2" name="new">
+                              <label class="form-check-label" for="new2">new</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="not-hide-nav-item nav-item dropdown ms-xxxl-16 ms-xxl-10 ms-xl-auto d-none d-xl-block order-2"><a class="nav-link d-flex align-items-center" href="#" role="button" aria-expanded="false"><i class="i i-reset i-sm me-2"></i>Сбросить фильтр</a></li>
+                <li class="nav-item dropdown ms-xl-auto d-xl-none d-xxl-block order-1 order-xl-3"><a class="filter-nav-link nav-link dropdown-toggle" id="navbarOrder" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Сортировать</a>
+                  <div class="dropdown-menu dropdown-menu-end ps-xl-11 py-xl-9 pe-xl-11 hide-checked">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort1" name="sort">
+                      <label class="form-check-label" for="sort1">Сначала дешевые</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort2" name="sort">
+                      <label class="form-check-label" for="sort2">Сначала дорогие</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort3" name="sort">
+                      <label class="form-check-label" for="sort3">Сначала со скидкой</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort4" name="sort">
+                      <label class="form-check-label" for="sort4">Сначала новинки</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort5" name="sort">
+                      <label class="form-check-label" for="sort5">Сначала популярные</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="" id="sort6" name="sort">
+                      <label class="form-check-label" for="sort6">По убыванию артикула</label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-xl-none mx-4">
+                <div class="row">
+                  <div class="col-12 col-md-7 pe-md-0 mb-2 mb-md-0"><a class="btn btn-black w-100 px-0" href="#">Показать 88 товаров</a></div>
+                  <div class="col-12 col-md-5 ps-md-0"><a class="btn btn-primary w-100 px-0" href="#">Сбросить</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="row row-cols-xxxl-5 row-cols-xxl-4 row-cols-lg-3 row-cols-md-2 row-cols-2 mx-md-0">
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge hit bg-white">Хит</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Сапоги / 202431-2-110W</p>
+                <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-03.jpg)"><img class="d-none" src="images/woman-slide-03.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202433-1-110W</p>
+                <p class="mil-product-preview-item-price"><span>9 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-04.jpg)"><img class="d-none" src="images/woman-slide-04.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge sale text-primary bg-white">Sale</div>
+                  <div class="badge new bg-white">New</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки … / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price">
+                  <s class="d-md-inline d-block">13 990 ₽</s><span class="text-primary">5 990 ₽</span><span class="badge bg-primary">-20%</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge hit bg-white">Хит</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Сапоги / 202431-2-110W</p>
+                <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-03.jpg)"><img class="d-none" src="images/woman-slide-03.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202433-1-110W</p>
+                <p class="mil-product-preview-item-price"><span>9 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-04.jpg)"><img class="d-none" src="images/woman-slide-04.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge sale text-primary bg-white">Sale</div>
+                  <div class="badge new bg-white">New</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки … / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price">
+                  <s class="d-md-inline d-block">13 990 ₽</s><span class="text-primary">5 990 ₽</span><span class="badge bg-primary">-20%</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge hit bg-white">Хит</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Сапоги / 202431-2-110W</p>
+                <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-03.jpg)"><img class="d-none" src="images/woman-slide-03.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202433-1-110W</p>
+                <p class="mil-product-preview-item-price"><span>9 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-04.jpg)"><img class="d-none" src="images/woman-slide-04.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge sale text-primary bg-white">Sale</div>
+                  <div class="badge new bg-white">New</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки … / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price">
+                  <s class="d-md-inline d-block">13 990 ₽</s><span class="text-primary">5 990 ₽</span><span class="badge bg-primary">-20%</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge hit bg-white">Хит</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Сапоги / 202431-2-110W</p>
+                <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-03.jpg)"><img class="d-none" src="images/woman-slide-03.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202433-1-110W</p>
+                <p class="mil-product-preview-item-price"><span>9 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-04.jpg)"><img class="d-none" src="images/woman-slide-04.jpg" alt="" title="">
+                <div class="badge-container">
+                  <div class="badge sale text-primary bg-white">Sale</div>
+                  <div class="badge new bg-white">New</div>
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки … / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price">
+                  <s class="d-md-inline d-block">13 990 ₽</s><span class="text-primary">5 990 ₽</span><span class="badge bg-primary">-20%</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+          <div class="col mb-8 ps-md-0 pe-md-1 px-md-5 px-0-1"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+              <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                <div class="badge-container">
+                </div>
+                <input class="favorites-check" type="checkbox">
+              </div>
+              <div>
+                <p>Ботинки / 202454-3-110W</p>
+                <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                </p>
+                <ul class="mil-product-preview-item-sizes">
+                  <li>35</li>
+                  <li class="disable">36</li>
+                  <li>37</li>
+                  <li>38</li>
+                  <li class="disable">39</li>
+                  <li>40</li>
+                  <li>41</li>
+                </ul>
+              </div></a>
+          </div>
+        </div>
+        <nav class="my-xxxl-23 my-xxl-21 my-xl-15 my-lg-18 my-md-19 my-16">
+          <ul class="pagination justify-content-center">
+            <li class="page-item page-arrow disabled"><a class="page-link" href="#"><i class="i i-page i-page-prev"></i></a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item disabled"><a class="page-link">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">10</a></li>
+            <li class="page-item page-arrow"><a class="page-link" href="#"><i class="i i-page i-page-next"></i></a></li>
+          </ul>
+        </nav>
+      </section>
+      <div class="mil-previously-you-watched">
+        <section class="mil-product-carousel-section mil-product-carousel-position-right">
+          <div class="mil-product-carousel-bg">
+            <div class="title">
+              <h2 class="text-white text-uppercase f-black title-h">ранее вы смотрели</h2>
+            </div>
+          </div>
+          <div class="mil-product-carousel-slick-arrows mil-carousel-arrows"></div>
+          <div class="mil-product-carousel-container">
+            <div class="mil-product-carousel-slick" data-type="right"><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                  <div class="badge-container">
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Ботинки / 202454-3-110W</p>
+                  <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                  <div class="badge-container">
+                    <div class="badge hit bg-white">Хит</div>
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Сапоги / 202431-2-110W</p>
+                  <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-03.jpg)"><img class="d-none" src="images/woman-slide-03.jpg" alt="" title="">
+                  <div class="badge-container">
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Ботинки / 202433-1-110W</p>
+                  <p class="mil-product-preview-item-price"><span>9 990 ₽</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-04.jpg)"><img class="d-none" src="images/woman-slide-04.jpg" alt="" title="">
+                  <div class="badge-container">
+                    <div class="badge sale text-primary bg-white">Sale</div>
+                    <div class="badge new bg-white">New</div>
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Ботинки … / 202454-3-110W</p>
+                  <p class="mil-product-preview-item-price">
+                    <s class="d-md-inline d-block">13 990 ₽</s><span class="text-primary">5 990 ₽</span><span class="badge bg-primary">-20%</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-01.jpg)"><img class="d-none" src="images/woman-slide-01.jpg" alt="" title="">
+                  <div class="badge-container">
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Ботинки / 202454-3-110W</p>
+                  <p class="mil-product-preview-item-price"><span>10 990 ₽</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a><a class="text-decoration-none mil-product-preview-item d-inline-block" href="card-product.html">
+                <div class="mil-product-preview-item-img" style="background-image: url(images/woman-slide-02.jpg)"><img class="d-none" src="images/woman-slide-02.jpg" alt="" title="">
+                  <div class="badge-container">
+                  </div>
+                  <input class="favorites-check" type="checkbox">
+                </div>
+                <div>
+                  <p>Сапоги / 202431-2-110W</p>
+                  <p class="mil-product-preview-item-price"><span>12 990 ₽</span>
+                  </p>
+                  <ul class="mil-product-preview-item-sizes">
+                    <li>35</li>
+                    <li class="disable">36</li>
+                    <li>37</li>
+                    <li>38</li>
+                    <li class="disable">39</li>
+                    <li>40</li>
+                    <li>41</li>
+                  </ul>
+                </div></a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="mil-feedback-section text-white px-xxxl-10 px-xxl-6 px-lg-8 py-xxxl-19 py-xxl-15 py-lg-18 py-md-12 py-11 px-4">
+        <form class="row align-items-lg-end row-cols-auto text-lg-start text-center flex-column flex-lg-row justify-content-between h-100">
+          <div class="col-auto">
+            <p class="h5 text-uppercase mb-0 mil-feedback-title mx-auto">Подписаться на рассылку milana.shoes</p>
+          </div>
+          <div class="col-auto mx-md-auto align-self-lg-center">
+            <input class="form-control form-control-sm border-0 border-bottom border-white text-white mil-feedback-input" type="email" placeholder="Введите Ваш e-mail">
+          </div>
+          <div class="align-self-lg-center">
+            <div class="row align-items-center flex-lg-column flex-xxl-row flex-row justify-content-center">
+              <div class="col-auto">
+                <div class="form-check form-check-white">
+                  <input class="form-check-input" type="radio" value="" id="woman" name="feedback" checked>
+                  <label class="form-check-label" for="woman">Женщинам</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="form-check form-check-white">
+                  <input class="form-check-input" type="radio" value="" id="man" name="feedback">
+                  <label class="form-check-label" for="man">Мужчинам</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="align-self-lg-center ms-lg-auto">
+            <button class="btn btn-primary" type="button">Подписаться</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-light mil-margin-left-side-menu">
+      <div class="container-fluid pt-8 pt-lg-16 pt-xl-20 pt-xxl-16 pt-md-11 pt-xxxl-16">
+        <div class="row px-xxxl-10 px-xxl-6 justify-content-between">
+          <div class="col-12 col-xxl-4 col-xxxl-3 order-1 order-lg-0 px-4 px-md-8 px-xxl-2 mb-lg-9 mb-xxl-0 ps-xxl-0">
+            <div class="row flex-column flex-md-row row-cols-md-3 align-items-md-start flex-xxl-column row-cols-xxl-1">
+              <div class="col-auto d-flex flex-column">
+                <div class="mil-footer-title-menu mb-8 mb-md-15 mb-lg-8 mb-xxl-8 pt-xxl-2"><span class="me-2">Контакты</span><a class="me-2 i i-telegram i-secondary" href="#"></a><a class="i i-whatsapp i-secondary" href="#"></a></div>
+                <div class="d-none d-md-block d-lg-none"><img src="images/yandex.svg" alt="" title=""></div>
+              </div>
+              <div class="col-auto mb-10 mb-xxl-11">
+                <p class="mil-footer-phones"><b>+7 800 555 38 60</b><br><b>+7 495 215 27 01</b></p>
+              </div>
+              <div class="col-auto">
+                <p class="mb-0">Следите за нашими новостями<br>в социальных сетях:</p>
+                <div class="mil-socials-container mt-7 mt-md-4 mt-xxl-5 mb-xxl-8 mb-5 mb-md-15 mb-lg-4 mb-xl-2"><a class="i i-social me-2 me-md-1 mb-1 i-instagram" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-fb" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-vk" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-ok" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-twitter" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-pinterest" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-youtobe" href="#"></a>
+                </div>
+                <div class="d-md-none mb-7"><img src="images/yandex.svg" alt="" title=""></div>
+                <div class="d-flex d-md-none mb-6 mb-md-0"><img class="icon-card-payments me-4" src="images/logo-visa.svg" alt="" title=""><img class="icon-card-payments me-4" src="images/logo-mastercard.svg" alt="" title=""><img class="icon-card-payments" src="images/logo-halva.svg" alt="" title=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-footer-accordion order-0 order-lg-1 px-0 px-lg-8 px-xxl-0 mb-13 mb-md-14 mb-lg-0">
+            <div class="accordion px-0 d-lg-flex justify-content-between row-cols-lg-4 mb-lg-7" id="accordionNav">
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingHelp">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseHelp" aria-expanded="true" aria-controls="footerNavCollapseHelp">Помощь</button>
+                </div>
+                <div class="accordion-collapse collapse show" id="footerNavCollapseHelp" aria-labelledby="footerNavHeadingHelp" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="#">Оплата</a><a class="nav-link" href="#">Доставка</a><a class="nav-link" href="#">Возврат</a><a class="nav-link" href="#">Гарантия</a><a class="nav-link" href="#">Конфиденциальность</a><a class="nav-link" href="#">Договор оферты</a><a class="nav-link" href="#">Обработка данных</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingBuyers">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseBuyers" aria-expanded="false" aria-controls="footerNavCollapseBuyers">Покупателям</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapseBuyers" aria-labelledby="footerNavHeadingBuyers" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="shops.html">Магазины</a><a class="nav-link" href="promotions.html">Акции</a><a class="nav-link" href="#">Информация о продукте</a><a class="nav-link" href="#">Система лояльности</a><a class="nav-link" href="#">Отписаться</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingPartners">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapsePartners" aria-expanded="false" aria-controls="footerNavCollapsePartners">Партнерам</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapsePartners" aria-labelledby="footerNavHeadingPartners" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="franchise.html">Франшиза</a><a class="nav-link" href="#">Оптовые продажи</a><a class="nav-link" href="#">Совместные покупки</a><a class="nav-link" href="#">Продажа кожи</a><a class="nav-link" href="#">Аренда площадей</a><a class="nav-link" href="#">Закупки</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingCompany">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseCompany" aria-expanded="false" aria-controls="footerNavCollapseCompany">Компания</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapseCompany" aria-labelledby="footerNavHeadingCompany" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="#">Бренд</a><a class="nav-link" href="#">Компания</a><a class="nav-link" href="news.html">Новости</a><a class="nav-link" href="history.html">История</a><a class="nav-link" href="#">Работа</a><a class="nav-link" href="media-press.html">Медиа</a><a class="nav-link" href="contacts.html">Контакты</a></nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 order-2 px-xxl-0 text-end mb-xxl-9 mb-lg-11 px-8 d-none d-lg-block">
+            <div class="footer-yandex"><img src="images/yandex.svg" alt="" title=""></div>
+          </div>
+          <div class="col-12 py-6 border-top px-4 order-3 px-xxl-0">
+            <div class="d-flex justify-content-between mil-footer-bottom-block mx-md-4 mx-xxl-0">
+              <div class="d-flex d-none d-md-block"><img class="me-4" src="images/logo-visa.svg" alt="" title=""><img class="me-4" src="images/logo-mastercard.svg" alt="" title=""><img src="images/logo-halva.svg" alt="" title=""></div>
+              <div class="d-flex flex-column flex-md-row">
+                <p class="me-md-6 me-lg-19">© 2021 ООО “Milana Shoes”</p>
+                <p>Создание и разработка сайта</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--script(src="//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.1/dist/perfect-scrollbar.common.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/sticky-js@1.3.0/index.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/gruntfile.min.js")-->
+    <!--script(src="js/common.js")-->
+  </body>
+</html>

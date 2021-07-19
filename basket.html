@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="description" content="">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title></title>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script defer src="js/temp-index.min.js"></script><link href="css/style.css" rel="stylesheet"></head>
+  <body class="d-flex flex-column off-canvas-backdrop">
+<header class="position-fixed top-0 start-0 end-0">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-auto bg-primary px-0">
+        <div class="mil-menu-width d-flex justify-content-center align-items-center"><a class="mil-offcanvas-btn d-none d-md-block d-xl-none" data-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="i i-menu"></i></a><a class="mil-header-logo" href="index.html"></a></div>
+      </div>
+      <div class="col mil-top-side-menu">
+        <div class="d-flex align-items-center h-100">
+          <div class="col-auto d-none d-lg-block">
+            <form class="me-xxl-6 me-xxxl-14">
+              <input class="form-control form-control-sm mil-search-input border-0 border-bottom border-black" type="text" placeholder="Искать товары">
+            </form>
+          </div>
+          <div class="col-auto d-none d-xxl-block pe-xxxl-7">
+            <div class="dropdown dropdown-city"><a class="dropdown-toggle justify-content-center" href="#" role="button" id="dropdownCity" data-bs-toggle="dropdown" aria-expanded="false">Калининград</a>
+              <div class="dropdown-menu"></div>
+            </div>
+          </div>
+          <div class="col-auto d-none d-xxl-block">
+            <div class="d-flex"><a class="me-3" href="tel:+78005553860">+7 800 555 38 60</a><a class="me-3" href="#"><i class="i i-telegram i-s-20"></i></a><a class="me-3" href="#"><i class="i i-whatsapp i-s-20"></i></a></div>
+          </div>
+          <div class="col-auto ms-auto">
+            <div class="d-flex"><a href="profile.html"><i class="i i-profile"></i><span>User</span></a><a href="favorites.html"><i class="i i-favorite"></i><span>99+</span></a><a class="me-md-0" href="basket.html"><i class="i i-basket"></i><span>1</span>
+                <div class="d-none d-md-inline-block border-black border-start border-2 mx-2 pt-3"></div><span class="d-none d-md-inline">5 990 ₽</span></a></div>
+          </div>
+          <div class="col-auto d-md-none"><a class="mil-offcanvas-btn" data-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="i i-menu"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="off-canvas off-canvas-start show overflow-hidden bg-light" id="offcanvasScrolling" data-scroll="true" data-backdrop="true" tabindex="-1">
+      <div class="off-canvas-body mil-scroll-bar" data-scroll-index="offCanvasBody">
+        <nav class="nav flex-column mb-xxl-0 mb-xl-20 mb-md-28 mb-10">
+          <li class="nav-item nav-sub-item active"><a class="nav-link" href="#">Женщинам</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Все товары</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Новинки</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Распродажа</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Обувь</a>
+                <ul class="nav flex-column">
+                  <li class="nav-item active"><a class="nav-link nav-badge" href="catalog.html" data-badge="606">Босоножки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="278">Ботильоны</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="593">Ботинки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="55">Мокасины</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="709">Полуботинки</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="78">Полусапоги</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="60">Сабо</a></li>
+                  <li class="nav-item"><a class="nav-link nav-badge" href="catalog.html" data-badge="131">Сандалии</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Сумки</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Аксессуары</a></li>
+              <li class="nav-item"><a class="nav-link" href="catalog.html">Уход за обувью</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Мужчинам</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Сумки</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Аксессуары</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="catalog.html">Уход за обувью</a></li>
+          <li class="nav-item"><a class="nav-link" href="promotions.html">аКЦИИ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ОБРАЗЫ</a></li>
+          <li class="nav-item"><a class="nav-link" href="shops.html">Магазины</a></li>
+          <li class="nav-item nav-sub-item"><a class="nav-link" href="#">покупателям</a></li>
+        </nav>
+        <div class="d-md-none mb-7 py-5 bg-light off-canvas-search px-4">
+          <form>
+            <input class="form-control form-control-sm mil-search-input border-bottom border-black" type="text" placeholder="Искать товары">
+          </form>
+        </div>
+        <div class="d-xxl-none off-canvas-contacts text-center">
+          <div class="dropdown dropdown-city mb-2"><a class="dropdown-toggle justify-content-center" href="#" role="button" id="dropdownCity" data-bs-toggle="dropdown" aria-expanded="false">Калининград</a>
+            <div class="dropdown-menu"></div>
+          </div>
+          <div class="d-flex align-items-center justify-content-center"><a class="off-canvas-phone me-3" href="tel:+78005553860">+7 800 555 38 60</a><a class="me-3" href="#"><i class="i i-telegram i-s-20"></i></a><a href="#"><i class="i i-whatsapp i-s-20"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <main class="mil-margin-left-side-menu mil-margin-top-header">
+      <section class="pe-md-7 pe-lg-8 pt-7 pt-md-13 pt-xxl-16 ps-xxxl-18 ps-xxl-14 ps-xl-12 ps-lg-9 ps-md-8 px-4">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+            <li class="breadcrumb-item active">Корзина</li>
+          </ol>
+        </nav>
+        <h1 class="h3 text-uppercase mb-10">Корзина</h1>
+        <div class="row mil-basket-container f-14px mb-md-38 mb-16 mt-5" data-sticky-container>
+          <div class="col flex-grow-1 flex-shrink-1 mb-xxl-18 mb-md-10 mb-6">
+            <div class="row">
+              <div class="col-12 mb-md-20">
+                <div class="row align-items-center mx-3 w-100">
+                  <div class="row py-4 px-0 align-items-center bg-primary text-white d-none d-md-flex mb-8">
+                    <div class="col-auto flex-grow-0 flex-shrink-0 ps-0">
+                      <div class="mil-basket-product-item-img-width"></div>
+                    </div>
+                    <div class="col-auto flex-grow-1 flex-shrink-1 pe-0">
+                      <div class="row align-items-center">
+                        <div class="col-auto">Наименование товара</div>
+                        <div class="col-auto col-lg-2 mx-auto">Количество</div>
+                        <div class="col-2">Цена</div>
+                        <div class="col-2">Сумма</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row pb-md-8 pb-11 px-0 align-items-md-center border-dark align-items-stretch border-bottom mb-md-8 mb-11">
+                    <div class="col-auto flex-grow-0 flex-shrink-0 ps-0">
+                      <div class="mil-basket-product-item-img" style="background-image: url(images/woman-slide-01.jpg)"></div>
+                    </div>
+                    <div class="col col-md-auto flex-grow-md-1 flex-shrink-md-1 pe-0">
+                      <div class="row align-items-md-center flex-column flex-md-row justify-content-between h-100">
+                        <div class="col-md-auto f-13px">
+                          <div>Ботфорты / 211404-1-810F</div>
+                          <div class="text-dark">Размер 37</div>
+                        </div>
+                        <div class="col-md-2 mx-md-auto my-auto">
+                          <div class="input-group input-group-sm">
+                            <button class="btn btn-sm py-2 px-0 min-width-auto f-21px f-regular" type="button">-</button>
+                            <input class="form-control text-center" type="text" value="2">
+                            <button class="btn btn-sm py-2 px-0 min-width-auto f-21px f-regular" type="button">+</button>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-none d-md-block">6 999 Р</div>
+                        <div class="col-md-2 pe-0">6 999 Р</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row pb-md-8 pb-11 px-0 align-items-md-center border-dark align-items-stretch">
+                    <div class="col-auto flex-grow-0 flex-shrink-0 ps-0">
+                      <div class="mil-basket-product-item-img" style="background-image: url(images/woman-slide-01.jpg)"></div>
+                    </div>
+                    <div class="col col-md-auto flex-grow-md-1 flex-shrink-md-1 pe-0">
+                      <div class="row align-items-md-center flex-column flex-md-row justify-content-between h-100">
+                        <div class="col-md-auto f-13px">
+                          <div>Ботфорты / 211404-1-810F</div>
+                          <div class="text-dark">Размер 37</div>
+                        </div>
+                        <div class="col-md-2 mx-md-auto my-auto">
+                          <div class="input-group input-group-sm">
+                            <button class="btn btn-sm py-2 px-0 min-width-auto f-21px f-regular" type="button">-</button>
+                            <input class="form-control text-center" type="text" value="2">
+                            <button class="btn btn-sm py-2 px-0 min-width-auto f-21px f-regular" type="button">+</button>
+                          </div>
+                        </div>
+                        <div class="col-md-2 d-none d-md-block">6 999 Р</div>
+                        <div class="col-md-2 pe-0">6 999 Р</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8 mb-md-20 mb-16">
+                <div class="input-group input-group-sm flex-column flex-md-row">
+                  <input class="form-control bg-light ps-4 w-100 w-md-auto border-light py-2 mb-4 mb-md-0" type="text" placeholder="Промокод / дисконтная карта" aria-label="Промокод / дисконтная карта">
+                  <button class="btn btn-black btn-sm py-2 px-8 lh-18px min-width-auto" type="button">Применить</button>
+                </div>
+              </div>
+              <div class="col-12">
+                <h2 class="h7 text-uppercase f-bold mb-md-12 mb-11">Оформление заказа</h2>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">Мои данные</label>
+              <div class="col-xxxl-5 col-md-6 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1" type="text" aria-describedby="text1" required placeholder="Фамилия">
+                  <div class="invalid-feedback order-0" id="text1">Заполните поле</div>
+                </div>
+              </div>
+              <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1" type="text" aria-describedby="text2" required placeholder="Имя">
+                  <div class="invalid-feedback order-0" id="text2">Заполните поле</div>
+                </div>
+              </div>
+              <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1" type="text" aria-describedby="text3" required placeholder="Отчество">
+                  <div class="invalid-feedback order-0" id="text3">Заполните поле</div>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">Телефон</label>
+              <div class="col-xxxl-5 col-md-6 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1 profile-phone" type="text" aria-describedby="text4" required data-mask="+7 (999) 999-99-99" placeholder="+7 (___) ___-__-__">
+                  <div class="invalid-feedback order-0" id="text4">Заполните поле</div>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">e-mail</label>
+              <div class="col-xxxl-5 col-md-6 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1 mb-2" type="text" aria-describedby="text5" required>
+                  <div class="invalid-feedback order-0" id="text5">Заполните поле</div>
+                </div>
+                <div class="small">
+                  <div class="form-check">
+                    <input class="form-check-mark" type="checkbox" value="" id="newsletters" checked>
+                    <label class="form-check-label" for="newsletters">Быть в курсе новинок и акций Milana Shoes</label>
+                  </div>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">Город доставки</label>
+              <div class="col-xxxl-5 col-md-6 mb-6">
+                <div class="d-flex flex-column">
+                  <input class="form-control bg-light order-1" type="text" aria-describedby="text3" required placeholder="Укажите город">
+                  <div class="invalid-feedback order-0" id="text3">Заполните поле</div>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">способ доставки</label>
+              <div class="col-md-8 mb-6">
+                <div class="form-check basket-pickup-check">
+                  <input class="form-check-input" type="radio" value="" id="radio1" name="deliveryMethod" checked>
+                  <label class="form-check-label" for="radio1">Самовывоз</label>
+                </div>
+                <div class="f-13px text-dark mb-6">Вы можете самостоятельно забрать заказ из нашего магазина.</div>
+                <div class="form-check basket-delivery-check">
+                  <input class="form-check-input" type="radio" value="" id="radio2" name="deliveryMethod">
+                  <label class="form-check-label" for="radio2">Доставка курьером</label>
+                </div>
+                <div class="f-13px text-dark mb-6">Доставка осуществляется в течение дня в удобное для вас время.</div>
+                <div class="form-check basket-delivery-check">
+                  <input class="form-check-input" type="radio" value="" id="radio3" name="deliveryMethod">
+                  <label class="form-check-label" for="radio3">Почта России</label>
+                </div>
+                <div class="f-13px text-dark mb-6">Доставка осуществляется в течение дня в удобное для вас время.</div>
+              </div>
+              <div class="col-12 basket-pickup-col">
+                <div class="row">
+                  <label class="col-md-4 col-form-label mb-6">пункт самовывоза</label>
+                  <div class="col-md-3 mb-6 pe-md-1 col-xxl-4 col-xxxl-3">
+                    <button class="btn btn-black btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasChooseShop" aria-controls="offcanvasChooseShop">Выбрать пункт</button>
+                  </div>
+                  <div class="col-md-4 mb-6 ps-md-1">
+                    <p class="f-13px f-black d-flex align-items-center line-height-1 text-uppercase"><span class="me-1">выходной</span><a class="mx-1 i i-shop-info i-sm" href="#"></a><a class="ms-1 i i-shop-route i-sm" href="#"></a></p>
+                    <div class="f-13px shop-address-minh">
+                      <div class="d-flex align-items-center">
+                        <svg class="me-1 mb-1" width="16" height="11" version="1.1" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+                          <path fill="#943F90" d="m4.8766 9.5178h0.84617v1.417h-5.6478v-1.417h0.14169 0.84023a0.1407 0.14091 0 0 0 0.15655-0.10816q1.6329-4.139 3.2698-8.2751l0.432-1.0916 3.1588 5.5382 3.1588-5.5372 0.324 0.8157q1.6904 4.273 3.3768 8.546a0.1516 0.15183 0 0 0 0.1724 0.1161c0.28338-0.00595 0.56676 0 0.85113 0h0.11791v1.4161h-5.6478v-1.4141h0.8432l-0.82933-2.3816-2.3701 3.9009-2.3701-3.8999z"></path>
+                        </svg>Жулебино
+                      </div>г. Люберцы, Октябрьский пр., 112<br>+7 (499) 2888-06-94
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 ps-md-1 basket-delivery-col d-none">
+                <div class="row">
+                  <label class="col-md-4 col-form-label mb-6">Адрес</label>
+                  <div class="col-xxxl-5 col-md-6 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text7" required placeholder="Улица *">
+                      <div class="invalid-feedback order-0" id="text7">Заполните поле</div>
+                    </div>
+                  </div>
+                  <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text8" required placeholder="Дом *">
+                      <div class="invalid-feedback order-0" id="text8">Заполните поле</div>
+                    </div>
+                  </div>
+                  <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text9" required placeholder="Квартира">
+                      <div class="invalid-feedback order-0" id="text9">Заполните поле</div>
+                    </div>
+                  </div>
+                  <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text10" required placeholder="Подъезд">
+                      <div class="invalid-feedback order-0" id="text10">Заполните поле</div>
+                    </div>
+                  </div>
+                  <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text11" required placeholder="Домофон">
+                      <div class="invalid-feedback order-0" id="text11">Заполните поле</div>
+                    </div>
+                  </div>
+                  <div class="col-xxxl-5 col-md-6 offset-md-4 mb-6">
+                    <div class="d-flex flex-column">
+                      <input class="form-control bg-light order-1" type="text" aria-describedby="text6" required placeholder="Этаж">
+                      <div class="invalid-feedback order-0" id="text6">Заполните поле</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">способ оплаты</label>
+              <div class="col-md-8 mb-6">
+                <div class="form-check mb-3 ">
+                  <input class="form-check-input" type="radio" value="" id="radio4" name="paymentMethod" checked>
+                  <label class="form-check-label" for="radio4">Оплата наличными при получении</label>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="radio" value="" id="radio5" name="paymentMethod">
+                  <label class="form-check-label" for="radio5">Оплата при получении банковской картой</label>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="radio" value="" id="radio6" name="paymentMethod">
+                  <label class="form-check-label" for="radio6">Оплата онлайн</label>
+                </div>
+              </div>
+              <label class="col-md-4 col-form-label mb-6">комментарий</label>
+              <div class="col-md-8 mb-6">
+                <textarea class="form-control bg-light" rows="8" placeholder="Комментарий к заказу"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-auto flex-grow-0 flex-shrink-0">
+            <div class="mil-basket-your-order mt--5">
+              <div class="mil-basket-your-order pt-xxl-11 pb-xxl-15 px-xxxl-18 px-xxl-9 basket-sticky-container mt-xxl-5">
+                <div class="row">
+                  <label class="col-xxl-12 col-md-4 col-form-label mb-6 f-xxl-25px">Ваш заказ</label>
+                  <div class="col-xxl-12 col-md-8 mb-7">
+                    <div class="row mb-3">
+                      <div class="col-6 col-md-5 pe-1">Товар на:</div>
+                      <div class="col-6 ps-1">13 998 ₽</div>
+                      <div class="col-6 col-md-5 pe-1">Скидка:</div>
+                      <div class="col-6 ps-1">3 250 ₽</div>
+                      <div class="col-6 col-md-5 pe-1">Доставка:</div>
+                      <div class="col-6 ps-1">450 ₽</div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-2 pe-1 f-semibold">Итого:</div>
+                      <div class="col-4 col-md-3 px-1 text-end f-12px">
+                        <s>16 947</s>
+                      </div>
+                      <div class="col-6 ps-1 f-semibold">13 998 ₽</div>
+                    </div>
+                  </div>
+                  <div class="col-xxl-12 col-md-8 offset-xxl-0 offset-md-4 mb-7 basket-pickup-col">
+                    <p class="f-13px f-black d-flex align-items-center line-height-1 text-uppercase"><span class="me-1">выходной</span><a class="mx-1 i i-shop-info i-sm" href="#"></a><a class="ms-1 i i-shop-route i-sm" href="#"></a></p>
+                    <div class="f-13px shop-address-minh">
+                      <div class="d-flex align-items-center">
+                        <svg class="me-1 mb-1" width="16" height="11" version="1.1" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+                          <path fill="#943F90" d="m4.8766 9.5178h0.84617v1.417h-5.6478v-1.417h0.14169 0.84023a0.1407 0.14091 0 0 0 0.15655-0.10816q1.6329-4.139 3.2698-8.2751l0.432-1.0916 3.1588 5.5382 3.1588-5.5372 0.324 0.8157q1.6904 4.273 3.3768 8.546a0.1516 0.15183 0 0 0 0.1724 0.1161c0.28338-0.00595 0.56676 0 0.85113 0h0.11791v1.4161h-5.6478v-1.4141h0.8432l-0.82933-2.3816-2.3701 3.9009-2.3701-3.8999z"></path>
+                        </svg>Жулебино
+                      </div>г. Люберцы, Октябрьский пр., 112<br>+7 (499) 2888-06-94
+                    </div>
+                  </div>
+                  <div class="col-xxl-12 col-md-8 offset-xxl-0 offset-md-4 mb-9">
+                    <div class="row mb-3">
+                      <div class="col-6 col-md-5 pe-1">Способ оплаты:</div>
+                      <div class="col-6 ps-1 f-semibold">картой</div>
+                    </div>
+                    <div class="row mb-3">
+                      <div class="col-6 col-md-5 pe-1">Срок хранения:</div>
+                      <div class="col-6 ps-1">7 дней</div>
+                    </div>
+                  </div>
+                  <div class="col-xxl-12 col-md-8 mb-6 d-xxl-block d-none"><a class="btn btn-primary btn-sm w-100" href="#">Оформить заказ</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mil-basket-footer-col">
+            <div class="form-check align-items-stretch mil-agreement-check mb-md-14 mb-10">
+              <input class="form-check-input" type="checkbox" value="" checked>
+              <label class="form-check-label">Нажимая кнопку «Отправить», я принимаю условия <a href="#">Публичной оферты</a> и даю свое согласие на обработку моих персональных данных на условиях и для целей, определенных в <a href="#">Согласии на обработку персональных данных</a></label>
+            </div><a class="btn btn-black btn-sm w-100 mb-0" href="#">Оформить заказ</a>
+          </div>
+        </div>
+      </section>
+      <div class="offcanvas offcanvas-end off-canvas-review-edit" tabindex="-1" id="offcanvasChooseShop" aria-labelledby="offcanvasChooseShopLabel">
+        <div class="offcanvas-header">
+          <button class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" type="button"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <div class="offcanvas-scroll-bar overflow-hidden pe-md-20">
+            <div class="container-fluid">
+              <h5 class="offcanvas-title mb-10" id="offcanvasChooseShopLabel">выбрать пункт</h5>
+              <ul class="nav nav-pills mb-md-10 mb-12" id="pillsTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pillsListTab" data-bs-toggle="pill" data-bs-target="#pillsList" type="button" role="tab" aria-controls="pillsList" aria-selected="true">Список</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pillsMapTab" data-bs-toggle="pill" data-bs-target="#pillsMap" type="button" role="tab" aria-controls="pillsMap" aria-selected="true">Карта</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pillsTabContent">
+                <div class="tab-pane fade show active" id="pillsList" aria-labelledby="pillsListTab">
+                  <div class="row">
+                    <div class="col-md-6 col-12 mb-md-12 mb-10">
+                      <p class="f-13px f-black d-flex align-items-center line-height-1 text-uppercase"><span class="me-1">Континент Дисконт</span><a class="mx-1 i i-shop-info i-sm" href="#"></a><a class="ms-1 i i-shop-route i-sm" href="#"></a></p>
+                      <div class="f-13px shop-address-minh">
+                        <div class="d-flex align-items-center">
+                          <svg class="me-1 mb-1" width="16" height="11" version="1.1" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#943F90" d="m4.8766 9.5178h0.84617v1.417h-5.6478v-1.417h0.14169 0.84023a0.1407 0.14091 0 0 0 0.15655-0.10816q1.6329-4.139 3.2698-8.2751l0.432-1.0916 3.1588 5.5382 3.1588-5.5372 0.324 0.8157q1.6904 4.273 3.3768 8.546a0.1516 0.15183 0 0 0 0.1724 0.1161c0.28338-0.00595 0.56676 0 0.85113 0h0.11791v1.4161h-5.6478v-1.4141h0.8432l-0.82933-2.3816-2.3701 3.9009-2.3701-3.8999z"></path>
+                          </svg>Бухарестская
+                        </div>г. Санкт-Петербург, ул. Бухарестская, д.30/32<br>+7 (812) 383-56-43
+                      </div><a class="btn btn-outline-black btn-sm mt-6" href="#">Выбрать салон</a>
+                    </div>
+                    <div class="col-md-6 col-12 mb-md-12 mb-10">
+                      <p class="f-13px f-black d-flex align-items-center line-height-1 text-uppercase"><span class="me-1">Пулково Аутлет</span><a class="mx-1 i i-shop-info i-sm" href="#"></a><a class="ms-1 i i-shop-route i-sm" href="#"></a></p>
+                      <div class="f-13px shop-address-minh">
+                        <div class="d-flex align-items-center">
+                          <svg class="me-1 mb-1" width="16" height="11" version="1.1" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#007DCC" d="m4.8766 9.5178h0.84617v1.417h-5.6478v-1.417h0.14169 0.84023a0.1407 0.14091 0 0 0 0.15655-0.10816q1.6329-4.139 3.2698-8.2751l0.432-1.0916 3.1588 5.5382 3.1588-5.5372 0.324 0.8157q1.6904 4.273 3.3768 8.546a0.1516 0.15183 0 0 0 0.1724 0.1161c0.28338-0.00595 0.56676 0 0.85113 0h0.11791v1.4161h-5.6478v-1.4141h0.8432l-0.82933-2.3816-2.3701 3.9009-2.3701-3.8999z"></path>
+                          </svg>Московская
+                        </div>г. Санкт-Петербург, Пулковское шоссе, дом 60, корпус 1<br>+7 (812) 384-24-78
+                      </div><a class="btn btn-outline-black btn-sm mt-6" href="#">Выбрать салон</a>
+                    </div>
+                    <div class="col-md-6 col-12 mb-md-12 mb-10">
+                      <p class="f-13px f-black d-flex align-items-center line-height-1 text-uppercase"><span class="me-1">Пулково Аутлет</span><a class="mx-1 i i-shop-info i-sm" href="#"></a><a class="ms-1 i i-shop-route i-sm" href="#"></a></p>
+                      <div class="f-13px shop-address-minh">
+                        <div class="d-flex align-items-center">
+                          <svg class="me-1 mb-1" width="16" height="11" version="1.1" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#007DCC" d="m4.8766 9.5178h0.84617v1.417h-5.6478v-1.417h0.14169 0.84023a0.1407 0.14091 0 0 0 0.15655-0.10816q1.6329-4.139 3.2698-8.2751l0.432-1.0916 3.1588 5.5382 3.1588-5.5372 0.324 0.8157q1.6904 4.273 3.3768 8.546a0.1516 0.15183 0 0 0 0.1724 0.1161c0.28338-0.00595 0.56676 0 0.85113 0h0.11791v1.4161h-5.6478v-1.4141h0.8432l-0.82933-2.3816-2.3701 3.9009-2.3701-3.8999z"></path>
+                          </svg>Московская
+                        </div>г. Санкт-Петербург, Пулковское шоссе, дом 60, корпус 1<br>+7 (812) 384-24-78
+                      </div><a class="btn btn-outline-black btn-sm mt-6" href="#">Выбрать салон</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pillsMap" aria-labelledby="pillsMapTab">
+                  <div class="leaflet-choose-shop" id="leafletChooseShop"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="mil-feedback-section text-white px-xxxl-10 px-xxl-6 px-lg-8 py-xxxl-19 py-xxl-15 py-lg-18 py-md-12 py-11 px-4">
+        <form class="row align-items-lg-end row-cols-auto text-lg-start text-center flex-column flex-lg-row justify-content-between h-100">
+          <div class="col-auto">
+            <p class="h5 text-uppercase mb-0 mil-feedback-title mx-auto">Подписаться на рассылку milana.shoes</p>
+          </div>
+          <div class="col-auto mx-md-auto align-self-lg-center">
+            <input class="form-control form-control-sm border-0 border-bottom border-white text-white mil-feedback-input" type="email" placeholder="Введите Ваш e-mail">
+          </div>
+          <div class="align-self-lg-center">
+            <div class="row align-items-center flex-lg-column flex-xxl-row flex-row justify-content-center">
+              <div class="col-auto">
+                <div class="form-check form-check-white">
+                  <input class="form-check-input" type="radio" value="" id="woman" name="feedback" checked>
+                  <label class="form-check-label" for="woman">Женщинам</label>
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="form-check form-check-white">
+                  <input class="form-check-input" type="radio" value="" id="man" name="feedback">
+                  <label class="form-check-label" for="man">Мужчинам</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="align-self-lg-center ms-lg-auto">
+            <button class="btn btn-primary" type="button">Подписаться</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-light mil-margin-left-side-menu">
+      <div class="container-fluid pt-8 pt-lg-16 pt-xl-20 pt-xxl-16 pt-md-11 pt-xxxl-16">
+        <div class="row px-xxxl-10 px-xxl-6 justify-content-between">
+          <div class="col-12 col-xxl-4 col-xxxl-3 order-1 order-lg-0 px-4 px-md-8 px-xxl-2 mb-lg-9 mb-xxl-0 ps-xxl-0">
+            <div class="row flex-column flex-md-row row-cols-md-3 align-items-md-start flex-xxl-column row-cols-xxl-1">
+              <div class="col-auto d-flex flex-column">
+                <div class="mil-footer-title-menu mb-8 mb-md-15 mb-lg-8 mb-xxl-8 pt-xxl-2"><span class="me-2">Контакты</span><a class="me-2 i i-telegram i-secondary" href="#"></a><a class="i i-whatsapp i-secondary" href="#"></a></div>
+                <div class="d-none d-md-block d-lg-none"><img src="images/yandex.svg" alt="" title=""></div>
+              </div>
+              <div class="col-auto mb-10 mb-xxl-11">
+                <p class="mil-footer-phones"><b>+7 800 555 38 60</b><br><b>+7 495 215 27 01</b></p>
+              </div>
+              <div class="col-auto">
+                <p class="mb-0">Следите за нашими новостями<br>в социальных сетях:</p>
+                <div class="mil-socials-container mt-7 mt-md-4 mt-xxl-5 mb-xxl-8 mb-5 mb-md-15 mb-lg-4 mb-xl-2"><a class="i i-social me-2 me-md-1 mb-1 i-instagram" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-fb" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-vk" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-ok" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-twitter" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-pinterest" href="#"></a><a class="i i-social me-2 me-md-1 mb-1 i-youtobe" href="#"></a>
+                </div>
+                <div class="d-md-none mb-7"><img src="images/yandex.svg" alt="" title=""></div>
+                <div class="d-flex d-md-none mb-6 mb-md-0"><img class="icon-card-payments me-4" src="images/logo-visa.svg" alt="" title=""><img class="icon-card-payments me-4" src="images/logo-mastercard.svg" alt="" title=""><img class="icon-card-payments" src="images/logo-halva.svg" alt="" title=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-footer-accordion order-0 order-lg-1 px-0 px-lg-8 px-xxl-0 mb-13 mb-md-14 mb-lg-0">
+            <div class="accordion px-0 d-lg-flex justify-content-between row-cols-lg-4 mb-lg-7" id="accordionNav">
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingHelp">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseHelp" aria-expanded="true" aria-controls="footerNavCollapseHelp">Помощь</button>
+                </div>
+                <div class="accordion-collapse collapse show" id="footerNavCollapseHelp" aria-labelledby="footerNavHeadingHelp" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="#">Оплата</a><a class="nav-link" href="#">Доставка</a><a class="nav-link" href="#">Возврат</a><a class="nav-link" href="#">Гарантия</a><a class="nav-link" href="#">Конфиденциальность</a><a class="nav-link" href="#">Договор оферты</a><a class="nav-link" href="#">Обработка данных</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingBuyers">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseBuyers" aria-expanded="false" aria-controls="footerNavCollapseBuyers">Покупателям</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapseBuyers" aria-labelledby="footerNavHeadingBuyers" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="shops.html">Магазины</a><a class="nav-link" href="promotions.html">Акции</a><a class="nav-link" href="#">Информация о продукте</a><a class="nav-link" href="#">Система лояльности</a><a class="nav-link" href="#">Отписаться</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingPartners">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapsePartners" aria-expanded="false" aria-controls="footerNavCollapsePartners">Партнерам</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapsePartners" aria-labelledby="footerNavHeadingPartners" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="franchise.html">Франшиза</a><a class="nav-link" href="#">Оптовые продажи</a><a class="nav-link" href="#">Совместные покупки</a><a class="nav-link" href="#">Продажа кожи</a><a class="nav-link" href="#">Аренда площадей</a><a class="nav-link" href="#">Закупки</a></nav>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="footerNavHeadingCompany">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#footerNavCollapseCompany" aria-expanded="false" aria-controls="footerNavCollapseCompany">Компания</button>
+                </div>
+                <div class="accordion-collapse collapse" id="footerNavCollapseCompany" aria-labelledby="footerNavHeadingCompany" data-bs-parent="#accordionNav">
+                  <nav class="nav flex-column"><a class="nav-link" href="#">Бренд</a><a class="nav-link" href="#">Компания</a><a class="nav-link" href="news.html">Новости</a><a class="nav-link" href="history.html">История</a><a class="nav-link" href="#">Работа</a><a class="nav-link" href="media-press.html">Медиа</a><a class="nav-link" href="contacts.html">Контакты</a></nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 order-2 px-xxl-0 text-end mb-xxl-9 mb-lg-11 px-8 d-none d-lg-block">
+            <div class="footer-yandex"><img src="images/yandex.svg" alt="" title=""></div>
+          </div>
+          <div class="col-12 py-6 border-top px-4 order-3 px-xxl-0">
+            <div class="d-flex justify-content-between mil-footer-bottom-block mx-md-4 mx-xxl-0">
+              <div class="d-flex d-none d-md-block"><img class="me-4" src="images/logo-visa.svg" alt="" title=""><img class="me-4" src="images/logo-mastercard.svg" alt="" title=""><img src="images/logo-halva.svg" alt="" title=""></div>
+              <div class="d-flex flex-column flex-md-row">
+                <p class="me-md-6 me-lg-19">© 2021 ООО “Milana Shoes”</p>
+                <p>Создание и разработка сайта</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--script(src="//cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.1/dist/perfect-scrollbar.common.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/sticky-js@1.3.0/index.min.js")-->
+    <!--script(src="//cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/gruntfile.min.js")-->
+    <!--script(src="js/common.js")-->
+  </body>
+</html>

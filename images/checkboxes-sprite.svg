@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+    <style>
+        .hidden { display: none; }
+        .black-fill {fill: #000000}
+        .secondary-fill {fill: #cbccd4}
+        .white-fill {fill: #ffffff}
+        .primary-fill {fill: #8c2837}
+        .black-stroke {stroke: #000000}
+        .secondary-stroke {stroke: #cbccd4}
+        .white-stroke {stroke: #ffffff}
+        .primary-stroke {stroke: #8c2837}
+        :target { display: block; }
+    </style>
+    <g id="black-checkbox" class="black-fill hidden">
+        <rect width="11" height="11" transform="translate(3 3)"/>
+    </g>
+    <g id="white-checkbox" class="white-fill hidden">
+        <rect width="11" height="11" transform="translate(3 3)"/>
+    </g>
+    <g id="secondary-checkbox" class="secondary-fill hidden">
+        <rect width="11" height="11" transform="translate(3 3)"/>
+    </g>
+    <g id="primary-checkbox" class="primary-fill hidden">
+        <rect width="11" height="11" transform="translate(3 3)"/>
+    </g>
+
+    <g id="black-checkmark" class="black-stroke hidden" fill="none">
+        <path d="m3.0233 7.3663 4.3564 5.1447 6.5731-8.7062"/>
+    </g>
+    <g id="white-checkmark" class="white-stroke hidden" fill="none">
+        <path d="m3.0233 7.3663 4.3564 5.1447 6.5731-8.7062"/>
+    </g>
+    <g id="secondary-checkmark" class="secondary-stroke hidden" fill="none">
+        <path d="m3.0233 7.3663 4.3564 5.1447 6.5731-8.7062"/>
+    </g>
+    <g id="primary-checkmark" class="primary-stroke hidden" fill="none">
+        <path d="m3.0233 7.3663 4.3564 5.1447 6.5731-8.7062"/>
+    </g>
+
+</svg>

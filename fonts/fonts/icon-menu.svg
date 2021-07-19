@@ -1,0 +1,15 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <style>
+  .hidden { display: none; }
+  :target { display: block; }
+ </style>
+ <g id="open" class="hidden" transform="translate(-272.65 -26.973)" fill="none" stroke="#000" stroke-width="1.5">
+  <path d="m275.58 29.585 18.336 18.777" stroke-width="1.5196"/>
+  <path transform="rotate(90 132.05 161.84)" d="m0 0 18.1 18.535"/>
+ </g>
+ <g id="close" class="hidden" transform="matrix(1.013 0 0 1.013 3.2805e-7 3.919)" fill="none" stroke="#000" stroke-width="1.5">
+  <path transform="translate(9431.1 -7103.9)" d="m-9431.1 7103.9h23.691"/>
+  <path transform="translate(9431.1 -7096)" d="m-9431.1 7103.9h23.691"/>
+  <path transform="translate(9431.1 -7088)" d="m-9431.1 7103.9h23.691"/>
+ </g>
+</svg>

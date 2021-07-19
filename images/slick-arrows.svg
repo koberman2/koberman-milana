@@ -1,0 +1,46 @@
+<svg width="31.198" height="14.762" version="1.1" viewBox="0 0 31.198 14.762" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .hidden {display: none; fill: none}
+        .black-stroke {stroke: #000000}
+        .secondary-stroke {stroke: #cbccd4}
+        .white-stroke {stroke: #ffffff}
+        .primary-stroke {stroke: #8c2837}
+        :target {display: block;}
+    </style>
+
+    <g id="arrow-right-white" class="hidden white-stroke" transform="translate(-1401 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5"/>
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+    <g id="arrow-left-white" class="hidden white-stroke" transform="matrix(-1 0 0 1 1432.2 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5" />
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+
+    <g id="arrow-right-black" class="hidden black-stroke" transform="translate(-1401 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5"/>
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+    <g id="arrow-left-black" class="hidden black-stroke" transform="matrix(-1 0 0 1 1432.2 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5" />
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+
+    <g id="arrow-right-secondary" class="hidden secondary-stroke" transform="translate(-1401 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5"/>
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+    <g id="arrow-left-secondary" class="hidden secondary-stroke" transform="matrix(-1 0 0 1 1432.2 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5" />
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+
+    <g id="arrow-right-primary" class="hidden primary-stroke" transform="translate(-1401 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5"/>
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+    <g id="arrow-left-primary" class="hidden primary-stroke" transform="matrix(-1 0 0 1 1432.2 -951.25)" stroke-width="2">
+        <path transform="translate(199.5 -51.369)" d="m1201.5 1010h29.5" />
+        <path transform="translate(188.48 -43.942)" d="m1233 996 9.023 6.573-9.023 6.573"/>
+    </g>
+</svg>

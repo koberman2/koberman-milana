@@ -1,0 +1,12 @@
+<svg width="8" height="8" version="1.1" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .hidden {display: none;}
+        :target {display: block;}
+    </style>
+    <g id="false" class="hidden">
+        <path d="m4.9421 4 2.8442-2.8442a0.66665 0.66665 0 1 0-0.94209-0.94209l-2.8442 2.8442-2.8442-2.8442a0.66665 0.66665 0 1 0-0.94209 0.94209l2.8442 2.8442-2.8442 2.8442a0.66665 0.66665 0 0 0 0.94209 0.94209l2.8442-2.8442 2.8442 2.8442a0.66665 0.66665 0 1 0 0.94209-0.94209z" fill="#c16969" stroke-width="1"/>
+    </g>
+    <g id="true" class="hidden">
+        <path d="m7.2 1.8-4.4 4.4-2-2" fill="none" stroke="#639b77" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    </g>
+</svg>

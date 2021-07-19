@@ -1,0 +1,35 @@
+<svg width="28" height="28" version="1.1" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .hidden { display: none; fill: none; stroke-width: 1}
+        .black-stroke {stroke: #000000}
+        .secondary-stroke {stroke: #bebebe}
+        .white-stroke {stroke: #ffffff}
+        .primary-stroke {stroke: #8c2837}
+        :target { display: block; }
+    </style>
+    <g id="prev-black" class="black-stroke hidden">
+        <path d="m16.162 17.635-3.9304-3.6332 3.9304-3.638"/>
+    </g>
+    <g id="prev-secondary" class="secondary-stroke hidden">
+        <path d="m16.162 17.635-3.9304-3.6332 3.9304-3.638"/>
+    </g>
+    <g id="prev-white" class="white-stroke hidden">
+        <path d="m16.162 17.635-3.9304-3.6332 3.9304-3.638"/>
+    </g>
+    <g id="prev-primary" class="primary-stroke hidden">
+        <path d="m16.162 17.635-3.9304-3.6332 3.9304-3.638"/>
+    </g>
+
+    <g id="next-black" class="black-stroke hidden">
+        <path d="m11.838 10.365 3.93 3.6329-3.93 3.6376"/>
+    </g>
+    <g id="next-secondary" class="secondary-stroke hidden">
+        <path d="m11.838 10.365 3.93 3.6329-3.93 3.6376"/>
+    </g>
+    <g id="next-white" class="white-stroke hidden">
+        <path d="m11.838 10.365 3.93 3.6329-3.93 3.6376"/>
+    </g>
+    <g id="next-primary" class="primary-stroke hidden">
+        <path d="m11.838 10.365 3.93 3.6329-3.93 3.6376"/>
+    </g>
+</svg>
